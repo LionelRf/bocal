@@ -1,3 +1,42 @@
-body {
-    background-color: skyblue;
+
+.btn.btn-primary {
+    background-color: orange;
+}
+
+/* Si vous voulez changer la couleur lors du survol */
+.btn.btn-primary:hover {
+    background-color: orangered;
+}
+
+header img {
+    height: 100%;
+}
+
+.nav-link {
+    color: orange;
+}
+
+.nav-link-large {
+    font-size: 1.25em; /* ou la taille que vous préférez */
+}
+
+.btn-orange {
+    background-color: orange;
+    color: white;
+}
+.btn-orange:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.newsletter-bar button {
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter-bar button:hover {
+    background-color: darkorange;
 }
